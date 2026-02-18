@@ -15,6 +15,7 @@ const session = require('express-session');
 const passport = require("passport");
 const passportLocalMongoose = require("passport-local-mongoose");
 // var GoogleStrategy = require('passport-google-oauth20').Strategy;
+// not using google strategy in this build
 const findOrCreate = require('mongoose-findorcreate');
 const app = express();
 app.use(express.static("public"));
